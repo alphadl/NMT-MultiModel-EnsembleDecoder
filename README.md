@@ -1,5 +1,9 @@
 # OpenNMT-py: Open-Source Neural Machine Translation
 
+NEWs: the extended multi-model ensembling decoding funciton usage:
+
+python ensemble_translate.py -model model1.pt -model model2.pt -model model3.pt ... （other opts are same as original version）
+
 [![Build Status](https://travis-ci.org/OpenNMT/OpenNMT-py.svg?branch=master)](https://travis-ci.org/OpenNMT/OpenNMT-py)
 
 This is a [Pytorch](https://github.com/pytorch/pytorch)
